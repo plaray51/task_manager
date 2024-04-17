@@ -20,9 +20,6 @@ POST
 Create a Task
 http://localhost:8080/api/tasks
 
-Body
-raw (json)
-json
 {
   "title": "Sample Task",
   "description": "This is a sample task description.",
@@ -32,9 +29,7 @@ json
 PUT
 Update a task
 http://localhost:8080/api/tasks/{id}
-Body
-raw (json)
-json
+
 {
   "title": "Updated Title",
   "description": "Updated description of the task.",
@@ -44,7 +39,8 @@ json
 DELETE
 Delete A Task
 http://localhost:8080/api/tasks/{id}
-﻿
+
+ 
 DELETE
 Delete All Tasks
 http://localhost:8080/api/tasks/deleteAll
